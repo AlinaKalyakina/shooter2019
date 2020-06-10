@@ -1,0 +1,47 @@
+//
+// Created by alina on 11.04.19.
+//
+
+#ifndef MAIN_CONSTANTS_H
+#define MAIN_CONSTANTS_H
+
+#define FOV 45.f
+#define NEAREST 1.f
+#define FURTHERST 150.f
+#define HIT_DIST 1.5
+#define MIN_TIME_GAP 3.f
+#define EXPLODE_DURALITY 3.14f
+#define MY_BULLET_SPEED 30.f
+#define ENEMY_SPEED 20.
+#define SHOOT_PROB 25
+#define OBJECT_GENERATE_PROB 2
+#define PARTICLES_NUM 256
+#define PARTICLES_SPEED 20.f
+#define CHARACTER_SIZE 0.04
+#define IDENT 0.02
+
+enum class SHADER_TYPE {
+    ENEMY_SHADER,
+    EXPLOSION_SHADER,
+    BULLET_SHADER,
+    FIRE_SHADER,
+    AIM_SHADER,
+    CUBEMAP_SHADER,
+    PARCTICLES_SHADER,
+    INFO_SHADER
+};
+
+
+enum class MODEL_TYPE {
+    ENEMY_1,
+    ENEMY_2,
+    ENEMY_3,
+    ASTEROID_1,
+    ASTEROID_2,
+    FIRE,
+    ENEMY_BULLET,
+    MY_BULLET_1,
+    MY_BULLET_2
+};
+
+#endif //MAIN_CONSTANTS_H
